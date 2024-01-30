@@ -1,6 +1,6 @@
 import combinatePrefix from "./index";
 
-describe("combinatePrefix", () => {
+describe(" Combinate Prefix", () => {
   it("should generate combinations correctly for provided prefixes", () => {
     const prefixes = ["c", "n", "s"];
     const expectedCombinations = ["c", "cn", "cns", "cs", "n", "ns", "s"];
